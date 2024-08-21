@@ -22,5 +22,3 @@ void SongMap::favorite() {
         songs.push(maxSong); // Şarkıyı tekrar heap'e ekleyin
     }
 }
-
-

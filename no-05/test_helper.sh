@@ -2,14 +2,14 @@
 
 # HOW TO RUN:
 # 
-# 1. Copy the bash file (cp4_test_helper.sh) and the expect file (interaction.exp) to the same directory as your executable (e.g., bin directory).
+# 1. Copy the bash file (test_hepler.sh) and the expect file (interaction.exp) to the same directory as your executable (e.g., bin directory).
 # 2. cd to the directory of your executable (e.g., bin directory).
 # 3. Execute the following command: 
-#    "bash cp4_test_helper.sh ./<executable> <testcase-number>"
+#    "bash test_hepler.sh ./<executable> <testcase-number>"
 # 4. Check if your program's output align with the 'EXPECTED OUTPUTS' output.
 
 if [ $# -ne 2 ]; then
-	echo "bash cp4_test_helper.sh ./<executable> <testcase-number>"
+	echo "bash test_hepler.sh ./<executable> <testcase-number>"
 	exit 1
 fi
 
