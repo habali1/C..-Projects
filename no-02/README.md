@@ -27,5 +27,44 @@ To compile and run the program:
     ```bash
     ./songmenu
     ```
-3. **Use the command-line interface:**
-- Type 'song <id> <artist> <duration> <title>' to add a new song
+## Use the Command-Line Interface
+
+- **Add a new song**:  
+  Type `song <id> <artist> <duration> <title>`  
+  Example: `song 1 "Peter Gabriel" 300 "In Your Eyes"`
+
+- **Remove a song by ID**:  
+  Type `remove <id>`  
+  Example: `remove 1`
+
+- **Create a new playlist**:  
+  Type `playlist <id> <name>`  
+  Example: `playlist 1 "My Playlist"`
+
+- **Add a song to a playlist**:  
+  Type `add <song_id> <playlist_id>`  
+  Example: `add 1 1`
+
+- **Remove a song from a playlist**:  
+  Type `drop <song_id> <playlist_id>`  
+  Example: `drop 1 1`
+
+- **View details of a song by ID**:  
+  Type `seesong <id>`  
+  Example: `seesong 1`
+
+- **View songs in a playlist by ID**:  
+  Type `seeplaylist <id>`  
+  Example: `seeplaylist 1`
+
+- **Exit the program**:  
+  Type `quit`
+
+## What I Learned in the Continuation Project
+
+- **Advanced Command-Line Interface Design**: I enhanced my skills in designing a command-line interface that supports multiple commands for managing songs and playlists, providing a more interactive and user-friendly experience.
+- **Complex Input Parsing**: I gained experience in parsing more complex user inputs, including handling multiple data types in a single command, using `istringstream` and `getline` effectively.
+- **Playlist Management**: I learned how to implement functionality for creating and managing playlists, including adding and removing songs from playlists and viewing playlist contents.
+- **Dynamic Duration Formatting**: I implemented and refined the `formatDuration` function to convert and display song durations in a standard `minutes:seconds` format.
+- **Error Handling and User Feedback**: I improved my approach to handling incorrect or unrecognized commands, providing clear feedback to the user and ensuring a smoother interaction with the program.
+- **Revised Makefile Techniques**: I practiced updating the Makefile to reflect new project requirements, ensuring proper compilation and linkage of the new command-line interface.
