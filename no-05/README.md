@@ -21,3 +21,15 @@ To compile the program, use the following command:
 ```bash
 make
 ```
+### Automated Testing
+```bash
+bash test_helper.sh ./listen_up <testcase-number>
+```
+## What I Learned
+
+- **Heap Data Structure**: I gained experience implementing and managing a max-heap using a priority queue in C++. This allowed for efficient retrieval of the song with the maximum listening time.
+- **Red-Black Tree**: I reinforced my understanding of red-black tree operations for balancing and managing a dynamic set of elements, ensuring efficient insertions and deletions.
+- **Automated Testing with TCL Expect**: I learned how to use TCL expect scripts to automate command-line interactions, facilitating the testing of the program with predefined test cases.
+- **Advanced Memory Management**: I practiced advanced memory management techniques in C++, including handling dynamic allocation and ensuring proper cleanup of resources.
+- **Complex Data Structures**: I developed and integrated complex data structures, such as the combination of a red-black tree and a max-heap, to manage songs effectively.
+- **Error Handling**: I implemented robust error handling mechanisms to manage edge cases, such as attempting to listen to or remove non-existent songs or handling empty heaps.
