@@ -4,6 +4,7 @@
 This project demonstrates a simple C++ program that manages and displays information about songs. It uses classes to represent individual songs and a song collection, allowing basic operations such as displaying song details.
 
 ## Files
+### Part 1: Song Collection Display
 - `Listen.cpp`: The main file that drives the program. It creates instances of `Song` and `SongCollection`, displays song information, and manages memory.
 - `Song.cpp`: Implementation of the `Song` class, which represents a song with a title, release year, and artist.
 - `Song.h`: Header file for the `Song` class.
